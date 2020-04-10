@@ -1,0 +1,11 @@
+{
+  "name": "tad1bot",
+  "version": "1.0.0",
+  "description": "Bot that connects with RIOT and gives data",
+  "main": "bot.js",
+  "author": "https://github.com/Tadz1k",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "leaguejs": "^2.1.2"
+  }
+}
