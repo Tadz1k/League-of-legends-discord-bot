@@ -132,7 +132,7 @@ async function staticData(item, key)    {
     let spells;
     let passive;
     let skins;
-    let champions = await api.StaticData.ddragonHelper.gettingFullChampionsList("", "pl_pl");
+    let champions = await api.StaticData.ddragonHelper.gettingFullChampionsList("", process.env.LANGUAGE);
     //Image = https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/84.png
     //Image2 = https://raw.communitydragon.org/latest/game/assets/characters/aatrox/hud/aatrox_circle.png
     //All https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-icons/
